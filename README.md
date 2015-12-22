@@ -16,7 +16,9 @@ Very simple pipeline to perform qc using plink, phase using shapeit2 and impute 
 #### Instructions
 Run shell script (./init.sh):
 - init.sh (Make directories)
+
 Submit scripts to cluster (using qsub script.sh) in this order:
+
 - qc.sh (Filter using plink)
 - map.sh (Extract by chr and fill in genetic distance from map file
 - align.sh (Optional step: remove any SNPs that didn't align with reference)
