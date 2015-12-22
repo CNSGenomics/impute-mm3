@@ -5,6 +5,7 @@ Very simple pipeline to perform qc using plink, phase using shapeit2 and impute 
 
 #### Current limitations
 - Only works with b37 aligned reference sets
+- No strand align yet (snps should be on +/forward strand)
 - No chunking, instead uses multiple threads per chromosome
 - Still experimental - requires testing
 
@@ -14,6 +15,8 @@ Very simple pipeline to perform qc using plink, phase using shapeit2 and impute 
 - Needs shapeit, minimac3, plink2 installed
 
 #### Instructions
+- *Still in testing - don't use for production*
+
 Run shell script (./init.sh):
 - init.sh (Make directories)
 
