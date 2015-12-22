@@ -1,7 +1,7 @@
 impute-mm3
 ==========
 
-Veru simple pipeline to perform qc using plink, phase using shapeit2 and impute using minimac3 on SGE cluster, borrowing from [impute-pipe][https://github.com/CNSGenomics/impute-pipe]
+Very simple pipeline to perform qc using plink, phase using shapeit2 and impute using minimac3 on SGE cluster, borrowing from [impute-pipe] [https://github.com/CNSGenomics/impute-pipe]
 
 #### Current limitations
 - Only works with b37 aligned reference sets
